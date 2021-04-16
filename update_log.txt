@@ -1,0 +1,13 @@
+2020.11.04
+1、lang\common\close_popup.py库新增了watch_popup()方法，实现监控并处理弹框提示，替换原有的close_popup()方法，更灵活有效
+
+2020.11.05
+1、增加了lang\common\app_manage.py ，lang\common\change_env.py两个库，实现启动安装/卸载app和切换环境
+
+2020.11.06
+1、lang\common\app_manage.py库增加了is_apk_installed()方法，实现校验app是否已安装过
+2、补充了test_005_manage、test_006_mirror、test_007_exposure、test_008_cutaways用例
+3、优化了部分代码
+
+2020.11.09-10
+1、增加了db.ini和db_server.py，实现数据库信息配置和数据库连接，实现数据查询、更新等方法 
