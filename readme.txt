@@ -16,7 +16,7 @@ lang/screenshot：存放截图
 
 # 如果本机未安装u2，需要先安装，命令行执行以下命令：
 # pip install uiautomator2          # 安装u2
-# python -m uiautomator2 init       # 手机自动安装atx, u2APK
+# python -m uiautomator2 init       # 在测试手机中自动安装atx, u2APK，需要先连接手机执行
 # pip install --pre -U weditor      # 安装UI查看器
 # python -m weditor                 # 启动UI查看器
 
